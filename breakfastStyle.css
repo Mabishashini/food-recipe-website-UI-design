@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.logo img{
+    width:100px;
+    height:100px;
+    
+}
+.header{
+    width:100%;
+    height:120px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: black;
+    top:0;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu{
+    height:100px;
+    display:flex;
+    align-items: center;
+}
+.menu ul li{
+    padding: 20px 30px;
+    position:relative;
+    color:#fff
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 30px;
+}
+.logo{
+    display: flex;
+    height:100px;
+    align-items: center;
+    
+}
+.logo h3{
+    margin-left: 10px;
+    font-size: 30px;
+    color:#c0a46b;
+}
+
+.menu ul li:hover{
+    cursor:pointer;
+    color:#c0a46b;
+}
+.menu ul li a:hover{
+    background-color:rgba(0,0,0,0.5);
+    color:#c0a46b;  
+    
+    border-radius: 5px;  
+}
+.submenu1{
+    display:none;
+}
+.menu ul li:hover .submenu1{
+    display:block;
+    position: absolute;
+   left:-1px;
+    top:100%;
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    border-radius: 5px;
+}
+.submenu1 ul{
+    display: block;
+    margin:10px;
+}
+.submenu1 ul li{
+   width:180px;
+    padding:2px;
+}
+.line{
+    
+    height:1px;
+    background-color:#d9d9d9;
+    box-shadow: 3px 2px 8px rgba(192, 164, 107, 0.8) ;
+    
+    
+}
+
+
+.breakfast-section-left{
+    display:flex;
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:2900px;
+    position:relative;
+    
+
+}
+.breakfast-recipes img{
+    height:408px;
+    width:680px;
+    border-radius: 5px;
+    
+}
+.breakfast-recipes img:hover{
+    box-shadow: 3px 2px 8px rgba(192, 164, 107, 0.8) ;   
+    animation:zoomin 1s linear 1;
+}
+
+@keyframes zoomin{
+    0%{
+        transform:scale(1)
+    }
+    45%{
+        transform:scale(1.05)
+    }
+    65%{
+        transform:scale(1.05)
+    }
+    100%{
+        transform:scale(1)
+    }
+}
+.breakfast-recipes{
+    padding:30px;
+    margin:40px;
+    position:relative;
+    text-align: center;
+    
+}
+.breakfast-content{
+    
+    color:white;
+    background: #1d1c20;
+    padding:20px;
+    word-wrap: break-word;
+    width:70%;
+    top:80%;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    left:15%;
+    border-radius: 5px;
+    border: 1px solid #c0a46b;
+}
+.breakfast-content:hover{
+    box-shadow: 3px 2px 8px rgba(192, 164, 107, 0.8) ;  
+}
+.banner{
+    background-position: cover;
+    
+    
+}
+.breakfast-content h4{
+    color:#c0a46b
+}
+
+.breakfast-section{
+    background: black;
+    color:white;
+    
+}
+.breakfast-header{
+    margin:30px;
+}
+.breakfast-header h1{
+    color:#c0a46b;
+    font-size: 50px;
+    margin:20px;
+}
+.breakfast-header p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.shape6a{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.shape6b{
+    position:absolute;
+    top:500px;
+    right:0;
+}
+.shape6c{
+    position:absolute;
+    top:1000px;
+    left:0;
+}
+.shape6d{
+    position:absolute;
+    top:1500px;
+    right:0;
+}
+.shape6e{
+    position:absolute;
+    top:2000px;
+    left:0;
+}
+.shape6f{
+    position:absolute;
+    top:2500px;
+    right:0;
+}
+
+
+
+
+
+
+.footer{
+    width:100%;
+     background-image: url("images/footer-bg.jpg");
+     height:450px;
+     color:white;
+ }
+ .icons{
+     color:#c0a46b;
+ }
+ .icon-list{
+     display:flex;
+     justify-content: center;
+     list-style: none;
+ }
+ .icon-list li{
+     font-size: 30px;
+     margin:30px;
+ }
+ .footer-section{
+     display:flex;
+     justify-content: space-around;
+     height:300px;
+     align-items: center;
+ }
+ .footer-section ul{
+     list-style: none;
+ }
+ .footer-section  h3{
+     color:#c0a46b
+ }
+ .footer-section ul li{
+     margin:20px;
+ }
+ .footer-section hr{
+     border:none;
+     height:1px;
+     background-color: #c0a46b;
+     
+     
+ }
+ .copyright{
+     display:flex;
+     justify-content: center;
+     padding:10px;
+     color:#c0a46b;
+ }
+
+ a{
+    text-decoration: none;
+ }
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
